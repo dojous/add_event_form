@@ -1,0 +1,21 @@
+{
+  "name": "formappserver",
+  "version": "1.0.0",
+  "description": "Server for formapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server",
+    "format:check": "npx prettier -c ./**/*.js",
+    "format:fix": "npx prettier --write ./**/*.js"
+  },
+  "author": "gszemraj",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5",
+    "nodemon": "^1.18.10"
+  }
+}
