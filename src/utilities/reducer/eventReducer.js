@@ -1,13 +1,7 @@
 import { actionsTypes } from "../../utilities/utilities";
 
 let initialState = {
-  formValues: {
-    firstname: "",
-    lastname: "",
-    eventname: "",
-    eventdate: "",
-    email: ""
-  },
+  formValues: {},
   errors: {},
   allowToSubmit: false,
   isAdded: false,
